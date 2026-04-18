@@ -1,0 +1,418 @@
+.head-container{
+    border-radius: 10px;
+    border:1px solid white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 7px;
+    height:40px;
+    width: 90%;
+    position: relative;
+    right: -60px;
+    
+}
+.devs{
+    color:white;
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.menu{
+    color: white;
+    display: none;
+}
+.logo-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    
+}
+.joy{
+    color: white;
+    font-size: 0.4rem;
+}
+.yummy{
+    background-color: white;
+    color:blue;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.unorder-list{
+    list-style-type: none;
+    display: flex;
+    gap:25px;
+    margin-bottom: -20px;
+    
+    
+}
+.unorder-list li{
+    display: inline-block;
+    
+    
+     
+    
+}
+.unorder-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+}
+.cta-button{
+  padding: 10px 18px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+/*media query- i want to use this media query to make the app to be responsive when display or operate on mobile or tablet */
+@media (max-width:768px){
+
+  .nav-links{
+    display:none;
+  }
+
+  .cta-button{
+    display:none;
+  }
+
+  .menu{
+    display:block;
+    cursor: pointer;
+  }
+
+}
+/* Now when the screen becomes small:
+
+navigation links disappear
+
+the button disappears
+
+the hamburger menu appears 
+Why Websites Do This
+
+Phones have limited space. So instead of showing everything, websites:
+
+1️⃣ Hide the navigation
+2️⃣ Show a hamburger icon (☰)
+3️⃣ When clicked, the menu opens
+
+You see this on many websites like:
+
+YouTube
+
+Amazon
+
+Apple
+*/
+body{
+    background-color:rgba(0,0,12,1);
+    margin: 0;
+   
+}
+main{
+    margin-top: 200px;
+    margin-right: 0;
+}
+h1{
+    font-size: 1.5rem;
+    color:darkblue;
+}
+.future{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.code-future{
+padding: 5px;
+position: relative;
+left:60px;
+}
+.heros-text{
+    color:white;
+    font-size: 2.3rem;
+    margin-top: 4px;
+    position: relative;
+    top: -9px;
+}
+.class-btn{
+    border-radius: 4px;
+    background-color: gray;
+    padding: 10px 14px;
+    cursor:pointer;
+    color: white;
+}
+.build{
+    max-width: 400px;
+    line-height: 1.6;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 60px;
+    margin-top: 70px;
+}
+.africa-growing{
+    line-height: 1.4;
+    color:white;
+    font-weight: bold;
+
+}
+.p-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.growing{
+    align-self: flex-end;
+    position: relative;
+    right: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    
+}
+.best{
+    font-size: 1.6rem;
+}
+.impactful{
+    margin-top: auto; /* it pushes .impactful down at the left-bottom*/
+    align-self: flex-start;
+}
+
+/*align-self is use to target or specify a single item from the parent container, that is if you have 5 <divs> using 
+self align means you are targeting only one div. */
+.join-dream{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.child-box{
+    align-self: flex-end;
+    margin-top: 150px;
+    position: relative;
+    right: 210px;
+    
+}
+.why{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
+ul li{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: -5px;
+    line-height: 1.1;
+    list-style-position: outside;
+    position: relative;
+    top: -19px;
+    right: 13px;
+    max-width: 370px;
+}
+ul li::marker{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+/*Using ::marker (modern & precise)
+CSS ::marker targets the bullet itself, which gives you full control:*/
+
+.apply-btn{
+    padding:10px 14px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: gray;
+    width: 120px;
+    position: relative;
+    right: 35px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+details{color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 700px;
+    
+    margin-bottom: 15px;
+    position: relative;
+    left: 230px;
+    line-height: 4;
+    background-color: gray;
+    opacity: 1;
+    text-align: justify;
+    
+}
+.final-sec{
+    color:white;
+
+}
+.space{
+    line-height: 1.5;
+    font-size: 1.3rem;
+    padding: 5px 5px;
+}
+.ready-now{
+    color:blueviolet;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 300px;
+    position: relative;
+    left: 70px;
+}
+.you{
+    width: 400px;
+    border-radius: 8px;
+    background-color: gray;
+    height: 400px;
+    text-align: center;
+    
+}
+.terminator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 70px;
+    align-content: space-between;
+    gap: 10px;
+    pointer:cursor;
+}
+.woo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 3;
+    
+}
+.here{
+    color: blueviolet;
+    font-weight: bold;
+}
+.dreams{
+    color: orange;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+
+}
+.p-joke{
+    display: flex;
+    flex-direction: column;
+
+}
+.ment-u{
+    align-self: self-end;
+    position: relative;
+    right: 150px;
+    margin-top: 50px;
+}
+.dreams-p{
+    margin-top: 50px;
+}
+.capitalization{
+    color: palevioletred;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+.details-summary{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;   
+}
+.developer-mag{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 800px;
+    position: relative;
+    left: 240px;
+    margin-top: 130px;
+}
+.claim-btn{
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 140px;
+    position: relative;
+    left:510px;
+}
+details{
+    width: 850px;
+    
+}
+.space{
+    text-align: justify;
+    line-height: 1.2;
+}
+footer{
+    background-color: grey;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 130px;
+    width: 100%;
+    border: none;
+}
+
+
+.sub-footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.sub-f{
+    background-color: white;
+    color:blue;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    bottom:-30px;
+}
