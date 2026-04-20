@@ -78,7 +78,7 @@
   font-weight: bold;
 }
 /*media query- i want to use this media query to make the app to be responsive when display or operate on mobile or tablet */
-@media (max-widt:680px){
+@media (max-widt:768px){
 
   .nav-links{
     display:none;
